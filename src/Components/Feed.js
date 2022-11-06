@@ -12,15 +12,16 @@ const Feed = () => {
 
     const [colors, addColor] = useState([])
 
-    const posts = colors.map((currColor) =>
-        <Block color={currColor}/>)
+    const posts = colors.map((color) => 
+        <Block color={color} caption={color}></Block>
+    );
+
+
 
     return (
         <div>
-            <Menu></Menu>
-            
             <Menu handleClick={(color) => addColor(colors => [color, ...colors])}></Menu>
-            {/* Below is where all of your Blocks should render! */}
+            
             {posts}
         </div>
     );
