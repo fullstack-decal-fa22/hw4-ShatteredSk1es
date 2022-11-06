@@ -13,7 +13,7 @@ const Feed = () => {
     const [colors, addColor] = useState([])
 
     const posts = colors.map((color) => 
-        <Block color={color} caption={color}></Block>
+        <Block color={color}></Block>
     );
 
 

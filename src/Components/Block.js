@@ -14,7 +14,7 @@ const Block = (props) => {
 
 
             <div className="post" style={colorOfPost}></div>
-            <div className="caption" >{props.caption}</div>
+            <div className="caption" >{props.color}</div>
         </div>
     );
 }

@@ -1,6 +1,7 @@
 {
   "name": "blockstagram",
   "version": "0.1.0",
+  "homepage": "https://ShatteredSk1es.github.io/fullstack-decal-fa22 ",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -40,6 +41,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "nodemon": "^2.0.20"
   }
 }
